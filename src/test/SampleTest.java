@@ -38,7 +38,7 @@ public class SampleTest
 		driver.findElement(By.linkText("E-commerce Development")).click();
 		driver.findElement(By.id("li4")).findElement(By.tagName("a")).click();
 		driver.findElement(By.className("partner_logo")).findElement(By.tagName("a")).click();
-		
+		//test
 		driver.quit();
 	}
 	@Test
