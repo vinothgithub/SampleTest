@@ -27,7 +27,7 @@ public class SampleTest
 	{
 		
 	}
-	//test
+	
 	@Test
 	public void doTest()
 	{
