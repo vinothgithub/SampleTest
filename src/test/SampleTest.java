@@ -41,22 +41,6 @@ public class SampleTest
 
 		driver.quit();
 	}
-	//TEst2
-	@Test
-	public void doTestChrome()
-	{
-		WebDriver driver = new ChromeDriver();
-		driver.navigate().to("http://www.softcrylic.com");
-		driver.findElement(By.id("solutions-button")).click();
-		driver.findElement(By.linkText("Microsoft .NET Development")).click();
-		driver.findElement(By.linkText("E-commerce Development")).click();
-		driver.findElement(By.id("li4")).findElement(By.tagName("a")).click();
-		driver.findElement(By.className("partner_logo")).findElement(By.tagName("a")).click();
-		
-
-		driver.findElement(By.linkText("Featured Clients")).click();
-
-		driver.quit();
-	}
+	
 	
 }
