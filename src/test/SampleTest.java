@@ -27,7 +27,7 @@ public class SampleTest
 	{
 		
 	}
-	//testtestafterclean
+	//testtestaftercleanclean
 	@Test
 	public void doTest()
 	{
